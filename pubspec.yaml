@@ -14,13 +14,13 @@ dependencies:
   equatable: ^2.0.3
 
   # A composable, multi-platform, Future-based API for HTTP requests.
-  http: ^0.13.3
+  http: ^1.2.1
 
   # Functions that support JSON code generation via the `json_serializable` package.
   json_annotation: ^4.1.0
   
   # Widgets that make it easy to integrate blocs and cubits into Flutter. Built to work with package:bloc.
-  flutter_bloc: ^7.3.0
+  flutter_bloc: ^8.1.5
 
 dev_dependencies:
   integration_test:
@@ -28,13 +28,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   
-  bloc_test: ^8.5.0
+  bloc_test: ^9.1.7
   
   # Tools to write binaries that run builders.
   build_runner: ^2.1.2
 
   # Automatically generate code for converting to and from JSON by annotating Dart classes.
-  json_serializable: ^5.0.2
+  json_serializable: ^6.8.0
 
   # Mock library for Dart inspired by Mockito.
   mockito: ^5.0.16
@@ -42,7 +42,7 @@ dev_dependencies:
   # A utility for providing mocked response to Image.network in Flutter widget tests.
   network_image_mock: ^2.0.1
 
-  flutter_lints: ^1.0.0
+  flutter_lints: ^3.0.2
   
 flutter:
   uses-material-design: true  
